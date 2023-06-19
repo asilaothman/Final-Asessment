@@ -1,0 +1,130 @@
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 100px;
+  background-color: inherit;
+  font-family: Arial;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: blue;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 50px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+p {
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 30px;
+ text-align:center
+}
+
+#p1 {
+ font-family: 'Work Sans', sans-serif;
+ font-size: 20px;
+ text-align:center
+}
+
+h1{
+ font-family: 'Libre Baskerville', serif;
+ font-size: 40px;
+}
+
+h2{
+ font-family: 'Work Sans', sans-serif;
+ font-size: 40px;
+ text-align:center
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+background-color: powderblue;
+}
+
+#example1 {
+  background-color: white;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+form {
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: powderblue;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
