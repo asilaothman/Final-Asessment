@@ -21,7 +21,7 @@
         
         <nav>
           <ul>
-          <a href="About bage.html"><li class="active" style="margin-left:10px;   padding-left: 
+          <a href="About page.html"><li class="active" style="margin-left:10px;   padding-left: 
           20px; padding-right: 20px;">ABOUT</li></a>
         <a href="Pricing page.html"><li class="active" style="margin-left:10px;   padding-left: 
             20px; padding-right: 20px;">pricing</li></a>
@@ -38,13 +38,14 @@
               <form method="post" onsubmit="return validateform()" name="signin" >
                 <div class="input-container">
                   <i class="fa fa-envelope icon" style="margin-left: 10px;border-top-left-radius: 20px;
-                  border-bottom-left-radius: 20px;"></i>
-                  <input class="input-field" type="email" placeholder="Enter your Email" name="email">
+                  border-bottom-left-radius: 20px;"></i> 
+                  <input class="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your Email">
+              
                 </div>
                 <div class="input-container">
                   <i class="fa fa-key icon" style="margin-left: 10px;border-top-left-radius: 20px;
                   border-bottom-left-radius: 20px;"></i>
-                  <input class="input-field" type="password" placeholder="Enter your Password" name="psw">
+                  <input class="input-field" type="password" pattern="^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$" title="Please enter a valid password" required name="psw">
                 </div>
                 <a class="already" href="signup.html">New to Uni_Edu? Register here.</a>
                   <div class="form-group"><a href="homepage.html" class="btn">Sign in</a></div>
