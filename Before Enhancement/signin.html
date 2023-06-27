@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <title>Sign in</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+          <img src="imgs/logo.png" width="200" alt="logo" style="margin-top: 10px;">
+        
+          </div> 
+        
+        <nav>
+          <ul>
+          <a href="About bage.html"><li class="active" style="margin-left:10px;   padding-left: 
+          20px; padding-right: 20px;">ABOUT</li></a>
+        <a href="Pricing page.html"><li class="active" style="margin-left:10px;   padding-left: 
+            20px; padding-right: 20px;">pricing</li></a>
+         <a href="contact us page.html"><li style="  padding-left: 
+        20px; padding-right: 20px;">LET'S TALK</li></a>
+          </ul>
+          </nav>
+        </div>
+      
+        
+        <div class="register-photo">
+          <div class="form-container">
+              <div class="image-holder"></div>
+              <form method="post" onsubmit="return validateform()" name="signin" >
+                <div class="input-container">
+                  <i class="fa fa-envelope icon" style="margin-left: 10px;border-top-left-radius: 20px;
+                  border-bottom-left-radius: 20px;"></i>
+                  <input class="input-field" type="email" placeholder="Enter your Email" name="email">
+                </div>
+                <div class="input-container">
+                  <i class="fa fa-key icon" style="margin-left: 10px;border-top-left-radius: 20px;
+                  border-bottom-left-radius: 20px;"></i>
+                  <input class="input-field" type="password" placeholder="Enter your Password" name="psw">
+                </div>
+                <a class="already" href="signup.html">New to Uni_Edu? Register here.</a>
+                  <div class="form-group"><a href="homepage.html" class="btn">Sign in</a></div>
+              </form>
+          </div>
+      </div>				                            
+        <hr style="float: left; width: 80%;margin-top: 15px; margin-left: 30px;"> 
+        <i class="fa fa-facebook icon" style="margin-left: 10px;"></i>
+        <i class="fa fa-instagram icon "style="margin-left: 10px;"></i>
+        <i class="fa fa-twitter icon"style="margin-left: 10px;"></i>
+        <script>
+
+          function validateform(){
+          
+          var email=document.signin.email.value;
+          var psw=document.signin.psw.value;
+         
+      
+        if(email==null || email==""){
+            alert("Email can't be blank.");
+            return false;
+            }
+            else if(psw==null || psw==""){
+            alert("Password can't be blank.");
+            return false;
+           }
+            else {
+              alert("Thank you for contacting us... Have a great day!!!")
+            }
+          }
+      
+      
+      </script>
+</body>
+</html>
