@@ -1,5 +1,4 @@
-# Final-Asessment
-Web Application Security - Group 2
+# WEB APPLICATION SECURITY FINAL ASSESSMENT
 
 Group Name - **ITNAN**<br>
 
