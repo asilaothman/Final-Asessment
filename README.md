@@ -14,8 +14,8 @@ NUR ALIA BINTI MUHAMMAD   |2010884 |Introduction, File Security Principles |
 NURUL SHAHIRAH BINTI AHMAD FIKRI|2013890  |Objective, Authentication  |
 
 ## Tables of Content
-**[Introduction of Web Application](#introduction)**<br>
-**[Ojective of the Enhancements](#objectives)**<br>
+**[Introduction of Web Application](#Introduction of Web Application)**<br>
+**[Objective of the Enhancements](#objectives)**<br>
 **[Web Application Security Enhancements](#alerts-and-vulnerabilities)**<br>
 **[References](#references)**<br>
 
