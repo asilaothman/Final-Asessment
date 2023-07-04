@@ -16,7 +16,7 @@ NURUL SHAHIRAH BINTI AHMAD FIKRI|2013890  |Objective, Authentication  |
 ## Tables of Content
 **[Introduction of Web Application](#introduction-of-web-application)**<br>
 **[Objective of the Enhancements](#objective-of-the-enhancements)**<br>
-**[Web Application Security Enhancements](https://github.com/asilaothman/Final-Asessment/blob/main/README.md#objective-of-the-enhancements#alerts-and-vulnerabilities)**<br>
+**[Web Application Security Enhancements](#web-application-security-enhancements)**<br>
 **[References](#references)**<br>
 
 ## Introduction of Web Application
