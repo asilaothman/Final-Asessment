@@ -28,9 +28,11 @@ The objectives of the enhancements are as follows:
   2. Strengthen authentication by implementing multi-factor authentication, strict password policies, and reliable session management.
   3. Implement strict authorization controls to limit user access to only the resources they are allowed to use based on  privileges.
   4. Include security libraries and frameworks in place and output encoding to safeguard against Cross-Site Scripting (XSS) attacks.
-  5. Employ Cross-Site Request Forgery (CSRF) prevention techniques,such as creating and validating special tokens for each user session.
+  5. Employ Cross-Site Request Forgery (CSRF) prevention techniques, such as creating and validating special tokens for each user session.
   6. Use parameterized queries, enforce access controls, and encrypt sensitive data to improve database security.
   7. Implement secure file handling procedures, such as file type validation, limited file access, and secure file storage for uploaded files.
+
+By concentrating on these objectives, the improved web application will be strengthened with security components to defend against various threats, ensuring the security and accessibility of the website for its users.
 
 ## Web Application Security Enhancements
 
