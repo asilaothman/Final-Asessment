@@ -13,7 +13,7 @@ ANIS ASILA BINTI OTHMAN          |    1914782         |Input Validation, XSS and
 NUR ALIA BINTI MUHAMMAD   |2010884 |Introduction, File Security Principles |
 NURUL SHAHIRAH BINTI AHMAD FIKRI|2013890  |Objective, Authentication  |
 
-## Tables of Content
+## Table of Contents
 **[Introduction of Web Application](#introduction-of-web-application)**<br>
 **[Objective of the Enhancements](#objective-of-the-enhancements)**<br>
 **[Web Application Security Enhancements](#web-application-security-enhancements)**<br>
