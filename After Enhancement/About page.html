@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Uni_edu</title>
@@ -112,10 +112,17 @@
      <a href="About page.html"<button class="button button1">About</button></a>
      <a href="Pricing page.html"<button class="button button2">pricing</button> </a>
      <a href="contact us page.html"<button class="button button3">let's talk</button></a>
-     
-
-      <span class="btns" ><a href="signin.html"<button class="sibtn"> sign in </button></a></span>
-
+  
+    <?php
+    // Check if the user is authenticated
+    if (isset($_SESSION['username'])) {
+      // User is authenticated
+      echo '<span class="btns"><a href="homepage.html"<button class="sibtn">Homepage</button></a></span>';
+    } else {
+      // User is not authenticated
+      echo '<span class="btns"><a href="signin.html"<button class="sibtn">Sign In</button></a></span>';
+    }
+  ?>
     </div>
 
     <div class="about"> About </div>
