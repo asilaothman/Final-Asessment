@@ -10,12 +10,12 @@
   <header>
     <section class ="header">
         <nav>
-       <a href="homepage.html"><img src="imgs/logo.png"></a>
+       <a href="homepage.php"><img src="imgs/logo.png"></a>
               <div class="nav-links">
 <ul>
-    <li><a href="About page.html">ABOUT</a></li>
-    <li><a href="Pricing page.html">pricing</a></li>
-    <li><a href="contact us page.html">LET'S TALK</a></li>
+    <li><a href="About page.php">ABOUT</a></li>
+    <li><a href="Pricing page.php">PRICING</a></li>
+    <li><a href="contact us page.php">LET'S TALK</a></li>
 
 </ul>
               </div>
@@ -29,7 +29,7 @@
 </div>  
   </section>
         
-  <section class="lerning">
+  <section class="learning">
       <div class="text">
         <p><h1>Start learning<br> new staff!</h1></p>
 
@@ -120,8 +120,8 @@
             
             <div>
                 <ul class="nav-left">
-                    <li><a href="About page.html">About</a></li>
-                    <li><a href="Pricing page.html">pricing</a></li>
+                    <li><a href="About page.php">About</a></li>
+                    <li><a href="Pricing page.php">pricing</a></li>
                     <li><a href="#">Let's Talk</a></li>
                 </ul>  
                
