@@ -23,9 +23,9 @@
         
         <nav>
             <ul>
-                <a href="About page.html"><li class="active" style="margin-left:10px; padding-left: 20px; padding-right: 20px;">ABOUT</li></a>
-                <a href="Pricing page.html"><li class="active" style="margin-left:10px; padding-left: 20px; padding-right: 20px;">pricing</li></a>
-                <a href="contact us page.html"><li style="padding-left: 20px; padding-right: 20px;">LET'S TALK</li></a>
+                <a href="About page.php"><li class="active" style="margin-left:10px; padding-left: 20px; padding-right: 20px;">ABOUT</li></a>
+                <a href="Pricing page.php"><li class="active" style="margin-left:10px; padding-left: 20px; padding-right: 20px;">PRICING</li></a>
+                <a href="contact us page.php"><li style="padding-left: 20px; padding-right: 20px;">LET'S TALK</li></a>
             </ul>
         </nav>
     </div>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="already" href="signin.html">Already have an account? Login here.</a>
+                <a class="already" href="signin.php">Already have an account? Login here.</a>
                 <div class="form-group">
                     <button class="btn" type="submit">Sign Up</button>
                 </div>
@@ -124,7 +124,7 @@
                 return false;
             } else {
                 // Redirect to the login page or homepage
-                window.location.href = 'signin.html';
+                window.location.href = 'signin.php';
             }
         }
     </script>
