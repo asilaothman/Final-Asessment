@@ -21,11 +21,11 @@
         
         <nav>
           <ul>
-          <a href="About page.html"><li class="active" style="margin-left:10px;   padding-left: 
+          <a href="About page.php"><li class="active" style="margin-left:10px;   padding-left: 
           20px; padding-right: 20px;">ABOUT</li></a>
-        <a href="Pricing page.html"><li class="active" style="margin-left:10px;   padding-left: 
-            20px; padding-right: 20px;">pricing</li></a>
-         <a href="contact us page.html"><li style="  padding-left: 
+        <a href="Pricing page.php"><li class="active" style="margin-left:10px;   padding-left: 
+            20px; padding-right: 20px;">PRICING</li></a>
+         <a href="contact us page.php"><li style="  padding-left: 
         20px; padding-right: 20px;">LET'S TALK</li></a>
           </ul>
           </nav>
@@ -47,7 +47,7 @@
                   border-bottom-left-radius: 20px;"></i>
                   <input class="input-field" type="password" pattern="^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$" title="Please enter a valid password" required name="psw">
                 </div>
-                <a class="already" href="signup.html">New to Uni_Edu? Register here.</a>
+                <a class="already" href="signup.php">New to Uni_Edu? Register here.</a>
                   <div class="form-group">
                       <button type="submit" class="btn">Sign in</button>
                   </div>
@@ -82,7 +82,7 @@
             .then(response => {
                 if (response.ok) {
                     // Authentication successful, redirect to the homepage or perform any other desired action
-                    window.location.href = 'homepage.html';
+                    window.location.href = 'homepage.php';
                 } else {
                     // Authentication failed, display error message
                     alert('Invalid email or password');
