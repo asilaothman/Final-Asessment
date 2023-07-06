@@ -109,18 +109,18 @@
 
     <div class="navbar">
      <span class="brand_name nav"><img src="imgs/logo.png" alt="logo"> </span>
-     <a href="About page.html"<button class="button button1">About</button></a>
-     <a href="Pricing page.html"<button class="button button2">pricing</button> </a>
-     <a href="contact us page.html"<button class="button button3">let's talk</button></a>
+     <a href="About page.php"<button class="button button1">About</button></a>
+     <a href="Pricing page.php"<button class="button button2">Pricing</button> </a>
+     <a href="contact us page.php"<button class="button button3">let's talk</button></a>
   
     <?php
     // Check if the user is authenticated
     if (isset($_SESSION['username'])) {
       // User is authenticated
-      echo '<span class="btns"><a href="homepage.html"<button class="sibtn">Homepage</button></a></span>';
+      echo '<span class="btns"><a href="homepage.php"<button class="sibtn">Homepage</button></a></span>';
     } else {
       // User is not authenticated
-      echo '<span class="btns"><a href="signin.html"<button class="sibtn">Sign In</button></a></span>';
+      echo '<span class="btns"><a href="signin.php"<button class="sibtn">Sign In</button></a></span>';
     }
   ?>
     </div>
