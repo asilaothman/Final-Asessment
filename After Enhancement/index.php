@@ -16,12 +16,12 @@
             <nav>
                 <img id="mobile-exit" class="mobile-menu-exit" src="imgs/exit.svg" alt="exit">
                 <ul class="nav-left">
-                    <li><a href="About page.html">About</a></li>
-                    <li><a href="Pricing page.html">pricing</a></li>
-                    <li><a href="contact us page.html">Let's Talk</a></li>
+                    <li><a href="About page.php">About</a></li>
+                    <li><a href="Pricing page.php">Pricing</a></li>
+                    <li><a href="contact us page.php">Let's Talk</a></li>
                 </ul>  
                 <ul class="nav-right">
-                    <li class="nav-btn"><a href="signin.html">Sign In</a></li>
+                    <li class="nav-btn"><a href="signin.php">Sign In</a></li>
                 </ul> 
             </nav>
         </div>
@@ -102,9 +102,9 @@
             
             <div>
                 <ul class="nav-left">
-                    <li><a href="About page.html">About</a></li>
-                    <li><a href="Pricing page.html">pricing</a></li>
-                    <li><a href="contact us page.html">Let's Talk</a></li>
+                    <li><a href="About page.php">About</a></li>
+                    <li><a href="Pricing page.php">Pricing</a></li>
+                    <li><a href="contact us page.php">Let's Talk</a></li>
                 </ul>  
                
             </div>
