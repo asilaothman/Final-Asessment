@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+// Check if the user is authenticated
+if (!isset($_SESSION['username'])) {
+  // User is not authenticated, redirect to the login page or display an error message
+  header("Location: signin.html");
+  exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
