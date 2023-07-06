@@ -7,10 +7,22 @@
 </head>
 <body>
     <h1>Logout Page</h1>
-    <p>You have been logged out successfully.</p>
-    <p><a href="index.html">Click here to go back to the login page.</a></p>
+    
     <script>
-        // Clear the session or perform other necessary actions
+        // Check if the user is authenticated
+        if (sessionStorage.getItem("isLoggedIn")) {
+            // Clear the session or perform other necessary actions
+            sessionStorage.removeItem("isLoggedIn");
+            
+            // Display the success message
+            document.write("<p>You have been logged out successfully.</p>");
+        } else {
+            // Display an error message if the user is not authenticated
+            document.write("<p>Authentication failed. Please login again.</p>");
+        }
     </script>
+    
+    <p><a href="index.html">Click here to go back to the login page.</a></p>
 </body>
 </html>
+
