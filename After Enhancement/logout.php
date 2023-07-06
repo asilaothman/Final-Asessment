@@ -22,7 +22,7 @@
         }
     </script>
     
-    <p><a href="index.html">Click here to go back to the login page.</a></p>
+    <p><a href="index.php">Click here to go back to the login page.</a></p>
 </body>
 </html>
 
