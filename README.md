@@ -21,6 +21,8 @@ NURUL SHAHIRAH BINTI AHMAD FIKRI|2013890  |Objective, Authorization |
 
 ## Introduction of Web Application
 
+As part of our final assessment, we need to improve our previous web application that was built during the web technologies course. Our goal is to incorporate all the security elements and components we have learned in our web security class to reinforce the web application with the necessary security measures. This includes implementing security measures such as input validation, authentication, authorization, protection against cross-site scripting (XSS) and cross-site request forgery (CSRF), as well as adhering to file security principles.
+
 ## Objective of the Enhancements
 
 The objectives of the enhancements are as follows:
@@ -62,3 +64,9 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 </details>
 
 ## References
+
+ *Rafael, W. (2021, May 30). Two Steps Verification with PHP and Google Authenticator. https://www.rafaelwendel.com/en/2021/05/two-step-verification-with-php-and-google-authenticator/*
+ *StudentsTutorial (n.d.). Two Factor Authentication using PHP. https://www.studentstutorial.com/php/two-factor-authentication*
+
+ 
+
