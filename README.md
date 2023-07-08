@@ -65,7 +65,8 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 
 ## References
 
- *Rafael, W. (2021, May 30). Two Steps Verification with PHP and Google Authenticator. https://www.rafaelwendel.com/en/2021/05/two-step-verification-with-php-and-google-authenticator/*
+ *Rafael, W. (2021, May 30). Two Steps Verification with PHP and Google Authenticator. https://www.rafaelwendel.com/en/2021/05/two-step-verification-with-php-and-google-authenticator/*<br>
+ 
  *StudentsTutorial (n.d.). Two Factor Authentication using PHP. https://www.studentstutorial.com/php/two-factor-authentication*
 
  
