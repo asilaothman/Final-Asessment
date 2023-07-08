@@ -25,8 +25,8 @@ NURUL SHAHIRAH BINTI AHMAD FIKRI|2013890  |Objective, Authorization |
 
 The objectives of the enhancements are as follows:
   1. To establish thorough input validation procedures to avoid attacks like SQL injection, XSS, and attempts at modifying data.
-  2. Strengthen authentication by implementing multi-factor authentication, strict password policies, and reliable session management.
-  3. Implement strict authorization controls to limit user access to only the resources they are allowed to use based on  privileges.
+  2. Strengthen authentication by implementing multi-factor authentication and strict password policies.
+  3. Implement strict authorization controls to limit user access to only the resources they are allowed to use based on  privileges  and reliable session management.
   4. Include security libraries and frameworks in place and output encoding to safeguard against Cross-Site Scripting (XSS) attacks.
   5. Employ Cross-Site Request Forgery (CSRF) prevention techniques, such as creating and validating special tokens for each user session.
   6. Use parameterized queries, enforce access controls, and encrypt sensitive data to improve database security.
