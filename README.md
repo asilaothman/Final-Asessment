@@ -2,7 +2,7 @@
 
 Group Name - **ITNAN**<br>
 
-Title of Web Application - **Sabah & Sarawak's Tourism**<br>
+Title of Web Application - **Sabah & Sarawak WebApp**<br>
 
 Group Member Details and our Tasks:
 
