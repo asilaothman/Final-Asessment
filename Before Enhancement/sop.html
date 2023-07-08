@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SOP</title>
+    <link rel="stylesheet" href="styles/sop.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap">
+  </head>
+  <body>
+
+    <!-- Nagivation bar -->
+    <div class="navbar">
+      <a href="homepage.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="document.location='Sabah.html'">Sabah</button>
+        <div class="dropdown-content">
+          <a href="AboutSabah.html">About</a>
+          <a href="SabahAttractions.html">Attractions</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="document.location='Sarawak.html'">Sarawak</button>
+        <div class="dropdown-content">
+          <a href="AboutSarawak.html">About</a>
+          <a href="AttractionSarawak.html">Attractions</a>
+        </div>
+      </div>
+      <a href="contact.html">About Us</a>
+      <a href="sop.html">SOP's</a>
+    </div>
+
+    <!-- Content -->
+    <h1 id="headingSOP">SOP For Travel</h1>
+    <div id="div1">
+      Standard Operation Procedure (SOP) must be followed to ensure the safety of ourselves in order to prevent Covid-19 from keep on spreading. Enjoy your vacation to the fullest and stay safe & healthy!!!<br>
+      <p style="color: red"><strong>**Only vaccinated people can travel**</strong></p>
+    </div>
+
+    <div id="div2">
+      <img src="images/physicaldistance.png" alt="Physical Distance">
+    </div>
+
+    <div id="div3">
+      <div class="SabahSOP">
+        <a href="Sabah.html">Sabah's SOP</a></div><br><br>
+      <p id="p1">
+        1. Swab test 3 days before or walk in the swab test area at KLIA but you need to pay RM5.
+        <ul>
+          <li>RM5 - Pay only for validation if your bring your own test kit.​</li>
+          <li>RM25 - Run the test and get the result.</li>
+        </ul>
+        <br>
+        2. Fill in the E-HDF Sabah 12 hours before flight departure. <br><br><br>
+        <div class="ehdf-sabah">
+          <a href="https://sm.jknsabah.gov.my/HDF/hdf.php">E-HDF Sabah></a></div>
+      </p>
+    </div>
+
+    <div class="v1"></div>
+
+    <div id="div4">
+      <div class="SarawakSOP">
+        <a href="Sarawak.html">Sarawak's SOP</a></div><br><br>
+      <p id="p2">
+        1. Fill in Enter Sarawak's form by clicking button below. Compulrsory to attached vaccine certification, flight ticket and hotel (if any). <br>
+        <div class="here">
+          <a href="https://sarawakdisastermc.com/entersarawak/#/landing-page">> Here</a></div><br>
+        2. Must get APPROVED from Enter Sarawak's form. Then, fill in the E-HDF Sarawak 12 hours before flight departure.<br><br><br>
+        <div class="ehdf-sarawak">
+          <a href="https://ms.microweb.my/">E-HDF Sarawak</a></div>
+      </p>
+    </div>
+
+    <div id="div5">
+        <button id="playPause" onclick="playPause()">Play/Pause</button>
+        <br><br><br>
+        <video id="video1" width="800">
+          <source src="images/covid_sop.mp4" type="video/mp4">
+          <source src="images/covid_sop.ogg" type="video/ogg">
+        </video>
+    </div>
+
+
+    <script src="scripts/sop.js">
+    </script>
+  </body>
+</html>
