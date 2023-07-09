@@ -54,6 +54,11 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 <details><summary>XSS and CSRF Prevention</summary>
 For XSS and CSRF prevention, a couple of measures have been implemented in this web application:
   
+1. Implementing CSP: A further layer of protection that aids in the detection and mitigation of specific attack types, such as data injection and cross-site scripting (XSS) assaults. These assaults are used for a variety of purposes, including virus delivery, site defacement, and data theft. The implementation has been done at HTML <meta> tag for same origin policy.
+
+2. CSRF Token: Web attacks called CSRF attacks, which target end users via malicious links, are risky. Attackers can use a variety of methods to send CSRF links, including JavaScript, web pages, forums, blog comments, and social media posts. The user is already logged in when they click the link, which takes them to a dangerous website. This link's objective is to force the user to carry out undesired actions on the website.
+ 
+  
 </details> 
 
 <details><summary>Database Security Principles</summary>
