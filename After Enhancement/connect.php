@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $input_username = $_POST["username"];
         $input_password = $_POST["password"];
 
-        // Sanitize the input to prevent SQL injection attacks
+        // Validate and Sanitize the input to prevent SQL injection attacks
         $input_username = mysqli_real_escape_string($conn, $input_username);
         $input_password = mysqli_real_escape_string($conn, $input_password);
 
