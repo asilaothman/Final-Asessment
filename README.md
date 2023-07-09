@@ -51,7 +51,7 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 </details>
 
 <details><summary>Authorization</summary>
-
+The main goal of this document is to validate users' authorization by comparing their login credentials with a MySQL repository that stores crucial user data. After a user's authentication is successful, session variables are set up to store the user's username and password for use during subsequent another authentication on various encrypted sites. Users must log in on the designated login page, where their login information is validated, in order to access the authorization section. When the verification process is successful, they are taken to the homepage.php page. 
 </details>
 
 <details><summary>XSS and CSRF Prevention</summary>
