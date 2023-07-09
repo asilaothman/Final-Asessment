@@ -52,6 +52,7 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 </details>
 
 <details><summary>XSS and CSRF Prevention</summary>
+For XSS and CSRF prevention, a couple of measures have been implemented in this web application:
   
 </details> 
 
