@@ -39,7 +39,10 @@ By concentrating on these objectives, the improved web application will be stren
 ## Web Application Security Enhancements
 
 <details><summary>Input Validation</summary>
+For Input Validation, a couple of measures have been implemented in this web application:
 
+1. RegEx:
+   
 </details>
 
 <details><summary>Authentication</summary>
