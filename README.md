@@ -39,10 +39,8 @@ By concentrating on these objectives, the improved web application will be stren
 ## Web Application Security Enhancements
 
 <details><summary>Input Validation</summary>
-For Input Validation, a couple of measures have been implemented in this web application:
+Whitelist validation has been implemented for input validation. It is quick and easy to reject input that does not expressly match an allow-list or allow-pattern (verify user input against the allow-list). both on the login page and during registration. Regular expressions (Regex) have been used in the registerlogin.php and authpage.php scripts since they are efficient solutions for dealing with challenging whitelist validation logic. Additionally, sanitization will be used to protect the connect.php file against SQL injection threats.
 
-1. RegEx:
-   
 </details>
 
 <details><summary>Authentication</summary>
@@ -62,6 +60,8 @@ For XSS and CSRF prevention, a couple of measures have been implemented in this 
 1. Implementing CSP: A further layer of protection that aids in the detection and mitigation of specific attack types, such as data injection and cross-site scripting (XSS) assaults. These assaults are used for a variety of purposes, including virus delivery, site defacement, and data theft. The implementation has been done at HTML <meta> tag for same origin policy.
 
 2. CSRF Token: Web attacks called CSRF attacks, which target end users via malicious links, are risky. Attackers can use a variety of methods to send CSRF links, including JavaScript, web pages, forums, blog comments, and social media posts. The user is already logged in when they click the link, which takes them to a dangerous website. This link's objective is to force the user to carry out undesired actions on the website.
+
+3. htmlspecialschars function: Special Characters are transformed into HTML entities. The transformed result is returned as a string by this function. Through the encoding of HTML characters with specific meaning, it is mainly used as a safeguard against cross-site scripting (XSS) attacks. For example, <script> --> &ltscript&gt.
  
   
 </details> 
@@ -89,6 +89,16 @@ Below are the security measures taken on the files of the web application
  *Rafael, W. (2021, May 30). Two Steps Verification with PHP and Google Authenticator. https://www.rafaelwendel.com/en/2021/05/two-step-verification-with-php-and-google-authenticator/*<br>
  
  *StudentsTutorial (n.d.). Two Factor Authentication using PHP. https://www.studentstutorial.com/php/two-factor-authentication*
+
+ *Alex. (2023, January 24). Anti-CSRF Tokens in PHP - Alex Web Develop. Alex Web Develop. https://alexwebdevelop.com/php-csrf-tokens/*
+
+ *Content Security Policy (CSP) - HTTP | MDN. (2023, July 7). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP*
+
+ *GramThanos/php-csrf: Single PHP library file for protection over Cross-Site Request Forgery. (2021, December 9). GitHub. https://github.com/GramThanos/php-csrf*
+
+‌
+
+‌
 
  
 
