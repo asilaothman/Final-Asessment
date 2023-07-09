@@ -56,10 +56,20 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 </details> 
 
 <details><summary>Database Security Principles</summary>
+To prevent sql injection attacks, the following measures have been implemented in the context of this web application project: 
+  
+The first step is to avoid accepting single quotation characters and boolean conditions in web applications. This type of attack can be avoided by using input sanitization methods on both the server and client sides. The input sanitization method ensures that special characters in SQL queries are escaped by using the mysqli_real-escape_string function. Second, is modifying the administrator's permitted privileges and monitoring it based on crucial admin permissions such as edit, update, and delete the database. 
 
 </details>
   
 <details><summary>File Security Principles</summary>
+Below are the security measures taken on the files of the web application
+  
+1. Clearing the cache : The cache holds temporary data from websites that users visits, and an attacker can access user data stored in the cache, such as login credentials. Clearing the user's browser cache prevents unauthorized users from accessing specific files when they are not logged into the system. When a user logs out of the system, the session and login credentials are deleted. These also prevent attackers from performing forceful browsing to get access to system files and modify them.
+  
+2.Disable error: If PHP error messages are not disabled in user's browsers, an attacker might attempt to read any sensitive information from the error messages, such as table names if those tables are not present in the database. We may prevent PHP errors from being displayed in user web browsers by altering the apache web server configuration file.
+
+3. Disable directory listing: Listing the files in the directory can lead to a vulnerability. When enabled , it shows the contents of directories without index files. If directory listing is not disabled, attackers can read and edit certain files. One of the steps taken to prevent listing directory files is the implementation of .htaccess file. Another step is setting up the Apache configuration file so that it directs users to authpage.php when they access the web application.
 
 </details>
 
