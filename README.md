@@ -51,7 +51,7 @@ Based on the files prior to the enhancement, it is evident that the web app lack
 </details>
 
 <details><summary>Authorization</summary>
-The main goal of this document is to validate users' authorization by comparing their login credentials with a MySQL repository that stores crucial user data. After a user's authentication is successful, session variables are set up to store the user's username and password for use during subsequent another authentication on various encrypted sites. Users must log in on the designated login page, where their login information is validated, in order to access the authorization section. When the verification process is successful, they are taken to the homepage.php page. 
+User authorization is implemented in the provided code using a PHP session and a MySQL database. It begins by creating a database connection before determining whether a form has been submitted. If the login form is submitted, the system retrieves the username and password, cleans them up to avoid SQL injection, hashes the password, and then evaluates the values with the database's information. The user is redirected to the homepage if the login is successful and the username and password are saved in session variables. If the login attempt is unsuccessful, an error message is shown. As an alternative, if the OTP request form is submitted, a random OTP is generated, saved in a session variable, and sent via email. Messages of success or failure are displayed in accordance. By verifying user credentials and implementing session-based authentication, the code assures secure authorization.
 </details>
 
 <details><summary>XSS and CSRF Prevention</summary>
